@@ -1,61 +1,158 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
+
+.btn-nasl {
+  color: #fff;
+  background-color: #2eb8b8;
+  border-color: #ccc;
+}
+.btn-nasl:focus,
+.btn-nasl.focus {
+  color: #fff;
+  background-color: #33cccc;
+  border-color: #ccc;
+}
+.btn-nasl:hover {
+  color: #fff;
+  background-color: #33cccc;
+  border-color: #ccc;
+}
+.btn-nasl:active,
+.btn-nasl.active {
+  color: #fff;
+  background-color: #33cccc;
+  border-color: #ccc;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  padding-top: 10px;
-  padding-bottom: 15px;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
+.naslovnica .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.naslovnica {
+	width:100%;
+    height:600px;
+	background-image:url('/naslovnica2m.jpg');
+    background-size: cover;
+	background-position: bottom center;
+	margin-bottom: 50px;
+}
+
+.naslovnicatecaj {
+	width:100%;
+    height:400px;
+	background-image:url('/naslovnica3m.jpg');
+    background-size: cover;
+	background-position: bottom left;
+	margin-bottom: 50px;
+}
+
+
+.kontakt {
+	margin-top: 100px;
+	width:100%;
+	background-color: #ddd;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+
+.vmesplac {
+	width:100%;
+    height:100px;
+	background-image:url('noge.jpg');
+    background-size: cover;
+	background-position: bottom;
+  	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.vmesplac2 {
+	width:100%;
+    height:150px;
+	background-color: #ddd;
+  	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+.bigmargintop {
+	margin-top: 100px;
+}
+
+/* Custom page header */
+.header {
+  /*padding-bottom: 20px;*/
+  padding: 10px;
+  /*border-bottom: 1px solid #e5e5e5;*/
+}
+/* Make the masthead heading the same height as the navigation */
+/*.header h3 {
+ margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}*/
+
+.nav li a {
+	color: #fff;
+	font-size: 18px;
+}
+
+.nav li a:focus {
+	background-color: #444;
+}
+
+.nav li a:hover {
+	background-color: #444;
+}
+
+.ekipa p {
+	text-align: center;
+}
+
+.ekipa h2 {
+	text-align: center;
+}
+
+.par {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+	background-size: cover;
+    width: 300px;
+    height: 300px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.parcont {
+	text-align: center;
+	padding-bottom: 5px:
+}
+
+/* Custom page footer */
+.footer {
+  color: #777;
+  padding-top: 20px
+}
+
+/* Customize container */
+/*@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+*/
+
+.container-narrow > hr {
+  margin: 30px 0;
 }
 
 .datumi {
@@ -66,28 +163,4 @@ body {
 
 .mnenja {
   font-style: italic;
-}
-
-
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
