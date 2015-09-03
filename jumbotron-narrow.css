@@ -35,9 +35,9 @@ body {
 .naslovnica {
 	width:100%;
     height:600px;
-	background-image:url('/naslovnica2m.jpg');
+	background-image:url('/naslovnica4m.jpg');
     background-size: cover;
-	background-position: bottom center;
+	background-position: center right;
 	margin-bottom: 50px;
 }
 
