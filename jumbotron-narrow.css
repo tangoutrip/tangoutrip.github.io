@@ -35,9 +35,9 @@ body {
 .naslovnica {
 	width:100%;
     height:600px;
-	background-image:url('/naslovnica4m.jpg');
+	background-image:url('/markomajaclaudiapaoli.jpg');
     background-size: cover;
-	background-position: center right;
+	background-position: top center;
 	margin-bottom: 50px;
 }
 
@@ -99,9 +99,14 @@ body {
   line-height: 40px;
 }*/
 
+
 .nav li a {
 	color: #fff;
 	font-size: 18px;
+}
+
+.darktext li a {
+	color: #000;
 }
 
 .nav li a:focus {
@@ -109,7 +114,7 @@ body {
 }
 
 .nav li a:hover {
-	background-color: #444;
+	background-color: rgba(255,0,0,0.10);
 }
 
 .ekipa p {
