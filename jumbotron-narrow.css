@@ -78,11 +78,16 @@ body {
 .kontakt {
 	margin-top: 100px;
 	width:100%;
-	background-color: #ddd;
+	background-color: #f2ddde;
 	padding-bottom: 50px;
 	padding-top: 20px;
 	margin-bottom: 0px;
 }
+
+.kontakt a {
+	color: #b12f36;
+}
+
 
 
 .vmesplac {
