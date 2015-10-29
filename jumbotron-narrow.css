@@ -38,7 +38,27 @@ body {
 	background-image:url('/markomajaclaudiapaoli.jpg');
     background-size: cover;
 	background-position: top center;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+.vertical-align {
+    display: flex;
+	align-items: center;
+}
+
+.pasica p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.opisitecajev h4 {
+	margin-top: 25px;
+}
+
+
+.pasica a {
+	color: #b12f36;
+	font-weight: bold;
 }
 
 .naslovnicatecaj {
@@ -50,6 +70,10 @@ body {
 	margin-bottom: 50px;
 }
 
+
+.pasica {
+	width: 100%;
+}
 
 .kontakt {
 	margin-top: 100px;
