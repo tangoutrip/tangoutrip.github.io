@@ -68,6 +68,8 @@ body {
 
 .pasica a {
 	color: #b12f36;
+	font-weight: bold;
+
 }
 
 .naslovnicatecaj {
@@ -145,7 +147,6 @@ body {
 
 .darktext li a {
 	color: #000;
-	font-weight: bold;
 }
 
 .nav li a:focus {
