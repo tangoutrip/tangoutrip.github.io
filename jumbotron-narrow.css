@@ -41,6 +41,17 @@ body {
 	margin-bottom: 0px;
 }
 
+.naslovnica_majamarko {
+	width:100%;
+    height:600px;
+	background-image:url('/naslovnicamm.png');
+    background-size: cover;
+	background-position: bottom center;
+	margin-bottom: 0px;
+}
+
+
+
 .naslovnicatehnika {
 	width:100%;
     height:600px;
@@ -94,6 +105,17 @@ body {
 	padding-top: 20px;
 	margin-bottom: 0px;
 }
+
+.kontaktmm {
+	margin-top: 100px;
+	width:100%;
+	background-color: #B4D7DC;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+
 
 .kontakt a {
 	color: #b12f36;
