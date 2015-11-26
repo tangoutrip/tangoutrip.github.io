@@ -27,6 +27,31 @@ body {
   border-color: #ccc;
 }
 
+.btn-mm {
+  color: #fff;
+  background-color: #2D474F;
+  border-color: #fff;
+}
+.btn-mm:focus,
+.btn-mm.focus {
+  color: #fff;
+  background-color: #789DA7;
+  border-color: #fff;
+}
+.btn-mm:hover {
+  color: #fff;
+  background-color: #789DA7;
+  border-color: #fff;
+}
+.btn-mm:active,
+.btn-mm.active {
+  color: #fff;
+  background-color: #789DA7;
+  border-color: #fff;
+}
+
+
+
 .naslovnica .btn {
   padding: 14px 24px;
   font-size: 21px;
