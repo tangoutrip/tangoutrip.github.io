@@ -1,0 +1,30 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -95,12 +95,13 @@
+     <section class="bg-primary" id="about">
+         <div class="container">
+             <div class="row">
+-                <div class="col-lg-8 col-lg-offset-2 text-center">
+-                    <h2 class="section-heading">Tečaje vodiva</h2>
+-                    <hr class="light">
+-                    <p class="text-faded">Peter in Sanja združujeta mladostno navihanost in številne preplesane kilometre, skupaj imata več kot 20 let tango izkušenj. Peter je v Ljubljani, konec prejšnjega stoletja, sodeloval pri postavljanju tango scene, tekom let pa je večkrat pohajal po Buenos Airesu in okušal tango, kot ga živijo Argentinci. Sanja zavzeto študira tehniko in v svoj ples prinaša dolgoletne izkušnje raziskovanja telesa skozi karate, gimnastiko, različne plese in jogijske asane. Tango, pravi, je njena meditacija v gibu.</p>
+-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+-                </div>
++							<div class="col-lg-4 col-lg-offset-1 text-center">
++									<img src="img/zemljevid.png" class="rounded" width="400px;">
++							</div>
++							<div class="col-lg-4 col-lg-offset-1 text-left">
++									<h2 class="section-heading">Tečaje vodiva</h2>
++									<p class="text-faded">Peter in Sanja združujeta mladostno navihanost in številne preplesane kilometre, skupaj imata več kot 20 let tango izkušenj. Peter je v Ljubljani, konec prejšnjega stoletja, sodeloval pri postavljanju tango scene, tekom let pa je večkrat pohajal po Buenos Airesu in okušal tango, kot ga živijo Argentinci. Sanja zavzeto študira tehniko in v svoj ples prinaša dolgoletne izkušnje raziskovanja telesa skozi karate, gimnastiko, različne plese in jogijske asane. Tango, pravi, je njena meditacija v gibu.</p>
++							</div>
+             </div>
+         </div>
+     </section>
+@@ -270,7 +271,7 @@
+ 										<a href="https://www.google.si/maps/place/Plesni+studio+Moj+Korak/@46.0598837,14.5061856,17z/data=!3m1!4b1!4m5!3m4!1s0x4765329bd8a2a203:0xc7ebd15cfde18a8d!8m2!3d46.05988!4d14.5083743"><img src="img/zemljevid.png" class="rounded" width="400px;"></a>
+ 								</div>
+                 <div class="col-lg-4 col-lg-offset-2 text-center">
+-                    <i class="fa fa-phone fa-3x sr-contact"></i>                     
++                    <i class="fa fa-phone fa-3x sr-contact"></i>
+ 	                    <p>Sanja 040 325 105</p>
+                 </div>
+                 <div class="col-lg-4 text-center">
