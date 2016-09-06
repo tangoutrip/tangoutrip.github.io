@@ -8,7 +8,7 @@
  #213341 temno modra
  #90AEC6 sivo modra
  #11C8CE turkizna
- #EC1559 ciklamna
+ #EC1559 ciklamna rgb 236, 21, 89
  #FAF93C rumena
  */
 
@@ -242,7 +242,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(236, 21, 89, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
