@@ -9,7 +9,7 @@
  #90AEC6 sivo modra
  #11C8CE turkizna
  #EC1559 ciklamna rgb 236, 21, 89
- #FAF93C rumena
+ #FAF93C rumena rgb 250, 249, 60
  */
 
 html,
@@ -53,6 +53,9 @@ p {
 }
 .bg-primary {
   background-color: #11C8CE;
+}
+.bg-secondary {
+  background-color: #EC1559;
 }
 .bg-dark {
   background-color: #222222;
@@ -239,10 +242,10 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
-  color: white;
+  color: #000000;
   opacity: 0;
   display: block;
-  background: rgba(236, 21, 89, 0.9);
+  background: rgba(250, 249, 60, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -434,5 +437,24 @@ body {
 	-moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+
+.yellow-border {
 	border: 10px solid #FAF93C;
+}
+
+.utrip-friends {
+	color: #FAF93C;
+}
+
+hr.utrip-friends {
+	border-color: #FAF93C;
+}
+
+.portfolio-box .text-faded {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-secondary .section-heading {
+	color: #FFFFFF;
 }
