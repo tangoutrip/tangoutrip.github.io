@@ -429,3 +429,10 @@ body {
 #mainNav {
 		border: none;
 }
+
+.rounded {
+	-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+	border: 10px solid #FAF93C;
+}
