@@ -177,10 +177,10 @@ header#main {
 	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
 }
 header#tangibalnica {
-	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+	background-image: url('../Fotke/SanjaTangibalnica/predklon_roke zadaj.jpg');
 }
 header#dogodek {
-	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+	background-image: url('../Fotke/Headerji/NOV HORIA_HEADER.jpg');
 }
 header .header-content {
   position: relative;
@@ -510,7 +510,7 @@ footer {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+	background-image: url('../Fotke/Headerji/MajaMarkoObjem.jpg');
   text-align: center;
   color: white;
 }
@@ -534,7 +534,7 @@ footer .footer-content .footer-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   footer {
@@ -563,3 +563,5 @@ footer .footer-content .footer-content-inner p {
     margin-right: auto;
   }
 }
+
+.ciklamna {color: #EC1559}
