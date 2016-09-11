@@ -12,6 +12,8 @@
  #FAF93C rumena rgb 250, 249, 60
  */
 
+/* #213341 */
+
 html,
 body {
   height: 100%;
@@ -36,7 +38,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #213341;
 }
 h1,
 h2,
@@ -89,7 +91,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #213341;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -147,7 +149,7 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #213341;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -284,10 +286,10 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 14px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -297,10 +299,10 @@ header .header-content .header-content-inner p {
 }
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
+    font-size: 22px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 .call-to-action h2 {
@@ -472,4 +474,20 @@ hr.utrip-friends {
 
 .bg-secondary .section-heading {
 	color: #FFFFFF;
+}
+
+#linkBack {
+	text-transform: none;
+	font-weight: normal;
+	font-size: 1em;
+	display: inline-block;
+	margin: 13px 30px;
+	height: auto;
+}
+
+#linkBack i {
+	margin-right: 5px;
+}
+.navbar-default.affix #linkBack {
+	margin: 8px 30px;
 }
