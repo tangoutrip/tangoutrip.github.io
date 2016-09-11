@@ -60,6 +60,9 @@ p {
 .bg-secondary {
   background-color: #EC1559;
 }
+.bg-primary, .bg-secondary {
+	color: #FFFFFF;
+}
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -178,9 +181,17 @@ header#main {
 }
 header#tangibalnica {
 	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
 }
 header#dogodek {
 	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
 }
 header .header-content {
   position: relative;
@@ -232,7 +243,7 @@ header .header-content .header-content-inner p {
   }
 }
 .section-heading {
-  margin: 20px 0px;
+  margin: 0px 0px 50px;
 }
 .service-box {
 	display: block;
