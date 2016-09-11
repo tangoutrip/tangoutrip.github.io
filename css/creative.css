@@ -169,9 +169,17 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
   text-align: center;
   color: white;
+}
+header#main {
+	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+}
+header#tangibalnica {
+	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
+}
+header#dogodek {
+	background-image: url('../Fotke/Headerji/MajaMarkoBoleo.jpg');
 }
 header .header-content {
   position: relative;
