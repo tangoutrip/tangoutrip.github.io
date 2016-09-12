@@ -33,6 +33,9 @@ hr.light {
 hr.rumena {
   border-color: #FAF93C;
 }
+hr.ciklamna {
+  border-color: #EC1559;
+}
 hr.vspace {
 	margin-top: 3em;
 	margin-bottom: 3em;
@@ -202,12 +205,21 @@ header#main {
 }
 header#tangibalnica {
 	background-image: url('../Fotke/SanjaTangibalnica/predklon_roke zadaj.jpg');
+	background-position: bottom;
+}
+header#tangibalnica p,
+header#seminar p,
+header#individualne p
+{
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 header#individualne {
 	background-image: url('../Fotke/SanjaTangibalnica/Rovinj_profilnaaa.jpg');
 }
 header#seminar {
 	background-image: url('../Fotke/promo_str.jpg');
+	background-position: bottom;
 }
 header#dogodek {
 	margin: 40px 0 0 0;
