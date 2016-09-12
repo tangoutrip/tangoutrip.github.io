@@ -74,6 +74,13 @@ p {
 .bg-secondary a {
   color: #FAF93C;
 }
+.bg-secondary a.btn {
+  color: #000000;
+}
+.bg-secondary a.btn:hover, .bg-secondary a.btn:focus {
+	background-color: #11C8CE;
+  color: #FFFFFF;
+}
 .bg-primary, .bg-secondary {
 	color: #FFFFFF;
 }
@@ -196,14 +203,17 @@ header#main {
 header#tangibalnica {
 	background-image: url('../Fotke/SanjaTangibalnica/predklon_roke zadaj.jpg');
 }
-header#dogodek {
-	background-image: url('../Fotke/Horia/NOV HORIA_HEADER.png');
-}
 header#individualne {
 	background-image: url('../Fotke/SanjaTangibalnica/Rovinj_profilnaaa.jpg');
 }
 header#seminar {
 	background-image: url('../Fotke/promo_str.jpg');
+}
+header#dogodek {
+	margin: 40px 0 0 0;
+}
+header#dogodek img {
+	width: 100%;
 }
 header .header-content {
   position: relative;
@@ -231,6 +241,9 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
+	header#dogodek {
+		min-height: auto;
+	}
   header .header-content {
     position: absolute;
     top: 50%;
