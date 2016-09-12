@@ -183,11 +183,7 @@ header#tangibalnica {
 	background-image: url('../Fotke/SanjaTangibalnica/predklon_roke zadaj.jpg');
 }
 header#dogodek {
-	background-image: url('../Fotke/Headerji/NOV HORIA_HEADER.jpg');
-	-webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+	background-image: url('../Fotke/Horia/NOV HORIA_HEADER.png');
 }
 header .header-content {
   position: relative;
@@ -571,4 +567,9 @@ footer .footer-content .footer-content-inner p {
   }
 }
 
-.ciklamna {color: #EC1559}
+.ciklamna {
+	color: #EC1559
+}
+.utrip-photo {
+	
+}
