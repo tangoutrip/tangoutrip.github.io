@@ -183,7 +183,21 @@ header#tangibalnica {
 	background-image: url('../Fotke/SanjaTangibalnica/predklon_roke zadaj.jpg');
 }
 header#dogodek {
-	background-image: url('../Fotke/Headerji/NOV HORIA_HEADER.jpg');
+	background-image: url('../Fotke/Horia/NOV HORIA_HEADER.png');
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+header#individualne {
+	background-image: url('../Fotke/SanjaTangibalnica/Rovinj_profilnaaa.jpg');
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+header#seminar {
+	background-image: url('../Fotke/promo_str.jpg');
 	-webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
