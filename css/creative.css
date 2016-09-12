@@ -574,8 +574,9 @@ footer .footer-content .footer-content-inner p {
 }
 
 .ciklamna {
-	color: #EC1559
+	color: #EC1559;
 }
-.utrip-photo {
-
+.utrip-item {
+	color: #EC1559;
+	margin-right: 5px;
 }
