@@ -185,6 +185,12 @@ header#tangibalnica {
 header#dogodek {
 	background-image: url('../Fotke/Horia/NOV HORIA_HEADER.png');
 }
+header#individualne {
+	background-image: url('../Fotke/SanjaTangibalnica/Rovinj_profilnaaa.jpg');
+}
+header#seminar {
+	background-image: url('../Fotke/promo_str.jpg');
+}
 header .header-content {
   position: relative;
   text-align: center;
@@ -571,5 +577,5 @@ footer .footer-content .footer-content-inner p {
 	color: #EC1559
 }
 .utrip-photo {
-	
+
 }
