@@ -30,6 +30,13 @@ hr {
 hr.light {
   border-color: white;
 }
+hr.rumena {
+  border-color: #FAF93C;
+}
+hr.vspace {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -47,6 +54,10 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+h3 {
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 p {
   font-size: 14px;
@@ -579,4 +590,18 @@ footer .footer-content .footer-content-inner p {
 .utrip-item {
 	color: #EC1559;
 	margin-right: 5px;
+}
+.utrip-subpage-nav {
+	background-color: #000000;
+}
+
+ol.utrip-srecanja {
+	font-style: italic;
+}
+ol.utrip-srecanja li:before {
+    content: "Srečanje: ";
+}
+ol.utrip-srecanja li span {
+	font-style: normal;
+	font-weight: bold;
 }
