@@ -634,3 +634,9 @@ ol.utrip-srecanja li span {
 	font-style: normal;
 	font-weight: bold;
 }
+
+#mce-EMAIL {
+	width: 80%;
+	font-size: 1.2em;
+	margin: 10px;
+}
