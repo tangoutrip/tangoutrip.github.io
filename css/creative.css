@@ -221,12 +221,6 @@ header#seminar {
 	background-image: url('../Fotke/promo_str.jpg');
 	background-position: bottom;
 }
-header#dogodek {
-	margin: 40px 0 0 0;
-}
-header#dogodek img {
-	width: 100%;
-}
 header .header-content {
   position: relative;
   text-align: center;
@@ -253,9 +247,6 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
-	header#dogodek {
-		min-height: auto;
-	}
   header .header-content {
     position: absolute;
     top: 50%;
@@ -635,8 +626,21 @@ ol.utrip-srecanja li span {
 	font-weight: bold;
 }
 
-#mce-EMAIL {
-	width: 80%;
-	font-size: 1.2em;
-	margin: 10px;
+#videobackground {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(resources/horia720.png) no-repeat;
+    background-size: cover;
+}
+
+#contact, #video, .bg-white {
+	background-color: white;
 }
