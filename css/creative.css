@@ -221,6 +221,10 @@ header#seminar {
 	background-image: url('../Fotke/promo_str.jpg');
 	background-position: bottom;
 }
+header#dogodek {
+	background-image: url('../Fotke/Headerji/JoelSanja_header.jpg');
+	background-position: bottom;
+	}
 header .header-content {
   position: relative;
   text-align: center;
