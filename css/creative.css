@@ -648,3 +648,6 @@ ol.utrip-srecanja li span {
 #contact, #video, .bg-white {
 	background-color: white;
 }
+#contact p, #contact a {
+	color: #11C8CE;
+}
