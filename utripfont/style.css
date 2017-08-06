@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'utripfont';
-  src:  url('../fonts/utripfont.eot?c42xdm');
-  src:  url('../fonts/utripfont.eot?c42xdm#iefix') format('embedded-opentype'),
-    url('../fonts/utripfont.ttf?c42xdm') format('truetype'),
-    url('../fonts/utripfont.woff?c42xdm') format('woff'),
-    url('../fonts/utripfont.svg?c42xdm#icomoon') format('svg');
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?c42xdm');
+  src:  url('fonts/icomoon.eot?c42xdm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c42xdm') format('truetype'),
+    url('fonts/icomoon.woff?c42xdm') format('woff'),
+    url('fonts/icomoon.svg?c42xdm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'utripfont' !important;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
