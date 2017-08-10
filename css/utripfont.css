@@ -24,6 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-deygonnasee:before {
+  content: "\e902";
+}
 .icon-blades:before {
   content: "\e900";
 }
